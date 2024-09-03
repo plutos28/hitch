@@ -1,3 +1,4 @@
+import {Link} from 'react-router-dom'
 
 function App() {
 
@@ -7,10 +8,10 @@ function App() {
       {/* nav */}
       <nav className="mx-4 py-4 grid grid-cols-12 gap-5">
         <div className="col-span-1 flex justify-center items-center">
-            <a href="#" className="flex items-center space-x-1 text-black font-bold text-[20px]">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#000000" viewBox="0 0 256 256"><path d="M211,103.43l-70.13,28,49.47,63.61a8,8,0,1,1-12.63,9.82L128,141,78.32,204.91a8,8,0,0,1-12.63-9.82l49.47-63.61L45,103.43A8,8,0,0,1,51,88.57l69,27.61V40a8,8,0,0,1,16,0v76.18l69-27.61A8,8,0,1,1,211,103.43Z"></path></svg>
-                <p>Hitch</p>
-            </a>
+            <Link to={'/'} className="flex items-center space-x-1 text-black font-bold text-[20px]">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#000000" viewBox="0 0 256 256"><path d="M211,103.43l-70.13,28,49.47,63.61a8,8,0,1,1-12.63,9.82L128,141,78.32,204.91a8,8,0,0,1-12.63-9.82l49.47-63.61L45,103.43A8,8,0,0,1,51,88.57l69,27.61V40a8,8,0,0,1,16,0v76.18l69-27.61A8,8,0,1,1,211,103.43Z"></path></svg>
+              Hitch
+            </Link>
         </div>
         <div className="col-span-3"></div>
         <div className="col-span-4 flex justify-between">
