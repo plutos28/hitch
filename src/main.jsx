@@ -9,6 +9,7 @@ import {
 import App from './App.jsx'
 import Root from './routes/root.jsx'
 import LandingPage from './routes/LandingPage.jsx'
+import Home from './routes/home.jsx'
 import './css/output.css'
 
 const router = createBrowserRouter([
@@ -19,6 +20,12 @@ const router = createBrowserRouter([
   {
     path: "/app",
     element: <Root />,
+    children: [
+      {
+        path: "home/",
+        element: <Home />,
+      },
+    ]
   },
 ]);
 

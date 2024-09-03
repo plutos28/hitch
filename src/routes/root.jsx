@@ -1,4 +1,4 @@
-import {Link} from 'react-router-dom'
+import {Link, Outlet} from 'react-router-dom'
 
 export default function Root() {
   return (
@@ -40,7 +40,9 @@ export default function Root() {
       </nav>
 
       {/* view */}
-      <div className="view"></div>
+      <div className="view">
+        <Outlet />
+      </div>
     </div>
   )
 }
