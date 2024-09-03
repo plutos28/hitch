@@ -585,8 +585,16 @@ video {
   grid-template-columns: repeat(12, minmax(0, 1fr));
 }
 
+.flex-col{
+  flex-direction: column;
+}
+
 .items-center{
   align-items: center;
+}
+
+.justify-start{
+  justify-content: flex-start;
 }
 
 .justify-center{
@@ -626,6 +634,10 @@ video {
   padding-bottom: 1rem;
 }
 
+.text-center{
+  text-align: center;
+}
+
 .font-jetbrains{
   font-family: "JetBrains Mono", monospace;
 }
@@ -636,6 +648,11 @@ video {
 
 .text-\[20px\]{
   font-size: 20px;
+}
+
+.text-4xl{
+  font-size: 2.25rem;
+  line-height: 2.5rem;
 }
 
 .font-bold{
@@ -655,6 +672,11 @@ video {
 .text-hitchUnselectedTab{
   --tw-text-opacity: 1;
   color: rgb(153 153 153 / var(--tw-text-opacity));
+}
+
+.text-blue-400{
+  --tw-text-opacity: 1;
+  color: rgb(96 165 250 / var(--tw-text-opacity));
 }
 
 
