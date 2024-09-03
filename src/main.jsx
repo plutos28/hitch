@@ -10,7 +10,9 @@ import App from './App.jsx'
 import Root from './routes/root.jsx'
 import LandingPage from './routes/LandingPage.jsx'
 import Home from './routes/home.jsx'
+import History from './routes/history.jsx';
 import './css/output.css'
+import Settings from './routes/settings.jsx';
 
 const router = createBrowserRouter([
   {
@@ -25,6 +27,15 @@ const router = createBrowserRouter([
         path: "home/",
         element: <Home />,
       },
+      {
+        path: "history/",
+        element: <History />,
+      },
+      {
+        path: "settings/",
+        element: <Settings />,
+      },
+
     ]
   },
 ]);
