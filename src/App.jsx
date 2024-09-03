@@ -3,7 +3,7 @@ function App() {
 
   return (
     <>
-      <h1 class="text-blue-500">Hitch App</h1>
+      <h1 class="text-blue-400">Hitch App</h1>
     </>
   )
 }
